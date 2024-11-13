@@ -1,24 +1,26 @@
 # Stock Price Prediction Using Machine Learning
 
-## Personal Journey & Motivation
-Coming from a data science background with extensive experience in data wrangling and implementing machine learning models, my summer internship at Badgley Phelps, a wealth management firm, presented an exciting opportunity to bridge data science with finance. The firm had specialized teams across Research, Operations, Financial Planning, and Trading, each playing a crucial role in client service. While my primary focus was on client relationships, income projections, and estate planning, I identified an opportunity to apply technical expertise in a field traditionally driven by fundamental analysis.
+## Bridging Finance and Data Science: A Personal Journey
+Coming from a data science background with extensive experience in data wrangling and implementing machine learning models, my summer internship at Badgley Phelps, a wealth management firm, presented an exciting opportunity to bridge data science with finance. As someone passionate about the transformative potential of data-driven decision-making, I was eager to explore how machine learning could enhance traditional finance workflows and ultiamtely provide greater value to clients. The firm had specialized teams across Research, Operations, Financial Planning, and Trading, each playing a crucial role in client service. While my primary focus was on income projections, estate planning, and client relationships, I identified an opportunity to apply technical expertise in a field traditionally driven by fundamental analysis.
 
-This experience deepened my understanding of how data-driven decisions can enhance portfolio management. At Badgley Phelps, data analysis was primarily performed using Excel, which, while functional, lacked the sophistication of advanced data science tools. Recognizing this gap, I proposed using object-oriented programming to sample and analyze trading data, aiming to create a system for identifying high-return stocks—a project that ultimately bridged finance and data science.
+During my time at Badgley Phelps, I observed that the firm's data analysis was primarily performed using Excel, a powerful tool but one that lacked the sophistication of advanced data science techniques. Recognizing this gap, I proposed a project to leverage machine learning for stock price prediction. Recognizing the profound impact it could have on the firm's investment strategies through creating a system for identifying high-return stocks, this is a project that ultimately bridged finance and data science.
 
-## Project Overview
+## Uncovering the Potential for Data Science in Finance
 Leveraging machine learning to predict stock prices, this project uses a Random Forest model with engineered features to improve predictive accuracy, outperforming traditional methods. While the data used for analysis is proprietary and confidential to Badgley Phelps and cannot be attached to this project, the approach demonstrates how historical trading data can be effectively transformed into actionable insights for portfolio management. The project further explores the effectiveness of advanced visualization and feature engineering in capturing complex market patterns.
 
-## Purpose and Real-World Application
-The purpose of this project was to introduce data science applications to Badgley Phelps, showcasing how machine learning can optimize manual research typically conducted via Bloomberg, Yahoo Finance, Morningstar, and JPM. This was an ideal opportunity to combine data science and business for impactful results. By optimizing the research process, we could enhance client interactions by reallocating time for more meaningful discussions, fostering trust, and better supporting clients’ financial needs. As data science becomes more ubiquitous across industries, I believe it will revolutionize workflows, ultimately allowing professionals to dedicate more time to serving people and improving their lives.
+## Bridging the Gap: Applying Machine Learning to Portfolio Management
+The purpose of this project was to introduce data science applications to Badgley Phelps, showcasing how machine learning can optimize manual research typically conducted via Bloomberg, Yahoo Finance, Morningstar, JPMorgan, and other financial data sources. This was an ideal opportunity to combine data science and business for impactful results. By optimizing the research process through combining historical trading data with advanced analytics, I aimed to create a system for identifying high-return stocks, a process that would not only enhance portfolio management but also free up time for the firm's professionals to focus on more meangingful client interactions.
 
-## Project Evolution
-Initially focused on analyzing trade metrics like volume and activity, the project evolved as I became interested in the potential of combining historical trade volumes with price movements to forecast future trends. This journey led to the development of a comprehensive approach that leverages feature engineering to improve predictive accuracy.
+## Revolutionizing Workflows: The Potential of Data Science Across Industries
+As data science becomes more ubiquitous across industries, I believe it will revolutionize workflows, ultimately allowing professionals to dedicate more time to serving people and improving their lives. By automating research-intensive tasks and providing data-driven insights, we can empower financial advisors to have deeper, more impactful conversations with their clients, fostering trust and better supporting their financial needs.
 
-## Technical Objective
-The primary objective was to develop a machine learning model capable of predicting stock prices for the upcoming month using historical trading data. I compared a Random Forest model against baseline approaches, including Linear Regression and a naive method that used the previous day's price.
+## The Project: Leveraging Machine Learning for Stock Price Prediction
+The primary objective was to develop a machine learning model capable of predicting stock prices for the upcoming month using historical trading data. I compared a Random Forest model against baseline approaches, including Linear Regression and a naive method that used the previous day's price, to demonstrate the power of advanced techniques in capturing complex market patterns.
 
-## Project Components
+## Enhancing Portfolio Optimization: The Role of Research and Data Science
+Research provides the fundamental basis for the why and how of investment allocation protocols. By incorporating data science and machine learning into the research process, we can unlock new opportunities for portfolio optimization, empowering financial professionals to make more informed decisions and ultimately deliver better outcomes for their clients.
 
+## Technical Approach and Key Findings
 ### Script Overview
 - **ML_Explore.py**: Initial exploratory data analysis script focused on data preprocessing and visualization. Handles the cleaning of raw trading data, implements temporal feature creation, and generates interactive visualizations to understand price patterns across different symbols. Outputs processed data for subsequent modeling.
 - **ML.py**: Core implementation of the Random Forest model for stock price prediction. Focuses on feature engineering, model training pipeline development, and initial hyperparameter tuning. Creates lag features, rolling means, and calendar-based features while implementing parallel processing for efficient multi-symbol handling.
@@ -105,13 +107,15 @@ The Random Forest model demonstrated superior performance compared to baseline m
 ## Future Enhancements
 - **Advanced Models**: Integrate LSTM networks for improved temporal modeling. LSTM’s sequential nature could capture time-dependent patterns more effectively, potentially leading to more accurate stock price predictions.
 - **Sentiment Analysis**: Including sentiment analysis on financial news could add valuable context to the feature engineering process, enhancing model accuracy by accounting for market sentiment.
-- **Data Expansion**: Incorporate larger historical datasets.
-- **Feature Enhancement**: Add technical indicators and market sentiment metrics.
+- **Data Expansion**: Incorporate larger historical datasets to further improve model accuracy
+- **Feature Enhancement**: Exploring additional technical indicators and market sentiment metrics.
+
+As data science continues to permeate across industies, this project serves as a benchmark for the transformative potential of bridging finance and data science. By optimizing research workflows and enhancing portfolio management, we can empower financial professionals to focus on their core mission of serving clients and improving their financial well-being.
 
 ## Conclusion
-This project successfully demonstrated the potential of machine learning in stock price prediction, particularly through the effective use of Random Forest models. The comprehensive approach to feature engineering and model evaluation provides a strong foundation for further development in algorithmic trading strategies. By bridging the gap between finance and data science, this project offers a novel perspective on portfolio optimization that the firm can potentially adopt in the future.
+This project demonstrates the power of applying machine learning to stock price prediction, offering a compelling case for the integration of data science in the finance industry. The comprehensive approach to feature engineering and model evaluation provides a strong foundation for further development in algorithmic trading strategies. By bridging the gap between finance and data science, this project offers a novel perspective on portfolio optimization that the firm can potentially adopt in the future.
 
-During my internship, I was able to share the details of my machine learning-powered stock price prediction approach with the trading team at Badgley Phelps. By walking through the data wrangling, model training, and visualization techniques, I presented an alternative method for the firm to conduct market analysis compared to their traditional fundamental analysis. This data-driven approach was well-received, as it showcased the power of leveraging historical trading data and advanced analytics to enhance investment strategies.
+By showcasing the potential of advanced analytics to outperform traditional methods, this work paves the way for a future where data-driven insights and automated workflows revolutionize the way financial professionals operate, ultimately leading to better outcomes for their clients and the broader community.
 
 ## Technologies Used
 - **Python Libraries**: `pandas`, `numpy`, `scikit-learn`, `plotly`
