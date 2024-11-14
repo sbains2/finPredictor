@@ -30,12 +30,12 @@ Research provides the fundamental basis for the why and how of investment alloca
 - **temporal_changes_symbols_plot.html**:
 Temporal representation of stock price changes from January 2024 - March 2024
 [![Temporal Changes Plot](imgs/temporal.png)]
-[View Stock Price Changes](/temporal_changes_symbols_plot.html)
+[View Stock Price Changes](visualizations/temporal_changes_symbols_plot.html)
 
 - **Model_Projection_Visualization.html**:
 Random Forest prediction of Stock price changes
 [![Random Forest Stock Price Predictions](imgs/predictions.png)]
-[View Stock Price Predictions](/Model_Projection_Visualization.html)
+[View Stock Price Predictions](visualizations/Model_Projection_Visualization.html)
 
 
 ## Dataset
