@@ -11,7 +11,7 @@ Leveraging machine learning to predict stock prices, this project uses a Random 
 ## Bridging the Gap: Applying Machine Learning to Portfolio Management
 The purpose of this project was to introduce data science applications to Badgley Phelps, showcasing how machine learning can optimize manual research typically conducted via Bloomberg, Yahoo Finance, Morningstar, JPMorgan, and other financial data sources. This was an ideal opportunity to combine data science and business for impactful results. By optimizing the research process through combining historical trading data with advanced analytics, I aimed to create a system for identifying high-return stocks, a process that would not only enhance portfolio management but also free up time for the firm's professionals to focus on more meangingful client interactions.
 
-## Revolutionizing Workflows: The Potential of Data Science Across Industries
+## Optimizing Workflows: The Potential of Data Science Across Industries
 As data science becomes more ubiquitous across industries, I believe it will optimize workflows, ultimately allowing professionals to dedicate more time to serving people and improving their lives. By automating research-intensive tasks and providing data-driven insights, we can empower financial advisors to have deeper, more impactful conversations with their clients, fostering trust and better supporting their financial needs.
 
 ## The Project: Leveraging Machine Learning for Stock Price Prediction
